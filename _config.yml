@@ -1,0 +1,30 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+ # Comment out url for development
+# url: http://www.jbheron.com
+title: Jess Heron
+email: jessbheron@gmail.com
+description: > # "Welcome to the personal website of web developer Jess Heron. I hope you enjoy!"
+destination: ../jbheron.github.io
+keep_files: [.git]
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  # - title: twitter
+  #   url: https://twitter.com/jessbheron
+  - title: github
+    url: https://github.com/jbheron
+  - title: linkedin
+    url: https://linkedin.com/in/jessheron
