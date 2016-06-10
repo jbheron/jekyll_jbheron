@@ -6,8 +6,12 @@
 # url: http://www.jbheron.com
 title: Jess Heron
 email: jessbheron@gmail.com
-description: > # "Welcome to the personal website of web developer Jess Heron. I hope you enjoy!"
-destination: ../jbheron.github.io
+description: > # "Welcome to the personal website of Jess Heron. I work as a technical writer and content developer in SF. I hope you enjoy!"
+# destination: ../jbheron.github.io
+
+# For Testing 
+destination: ../jbheron.github.io_testing
+
 keep_files: [.git]
 # ----------------------- #
 #    Jekyll & Plugins     #
