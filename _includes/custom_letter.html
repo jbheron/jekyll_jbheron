@@ -1,14 +1,39 @@
+ <!-- Custom Letter introduction -->
+  <div class="container section">
+    <div class="row">
+      <div class="intro-divider text-left">
+
+        <h1>Hello, <strong><span style="color: #FF8100;">{{page.employer}}</span></strong></h1>
+        <h2>   I'm Jess-- I like to write! I think we should work together. UUU</h2>
+        <br>
+      </div>
+    </div>
+  </div>
+
+<!-- Custom letter columns -->
 <div class="container">
 <div class="row">
-  <div class="col-lg-6 col-sm-6">
-    <h1>H1>>> What about me?</h2>
+  <div class="col-lg-4 col-sm-4">
+    <br>
+    <h2>What about me?</h2>
+       <p>As of August 2015 I have been documenting all things Cloud at Pivotal. I can be reached through any of the contact links at this site. </p>
+       <br>
       <h2 class="text-justify">I am a tech writer.</h2>
-       <h3 >Umami iPhone PBR 90's four dollar toast, lumbersexual plaid. Chillwave YOLO sartorial master 
-      </h3>
+        <p>For the last several years I have been happily developing web content, writing technical documents and I got some technical chops at Dev Bootcamp. I've always been a craftsman of one sort or another. I have made web apps, manuals, movies, houses, furniture, commercials, and one screenplay.</p>
+        <br>
+       <h2>And, before that?</h2>
+        <p>I was trained in the creative and technical craft of film making, but early on found myself building houses on the far away island of Nantucket. Why? </p>
+        <br>
+        	<h2>Because life is a big, fat amazing ride.</h2>
+        <p>After enough blustery winters to appreciate good weather, I traded my beard and hammer for a bag of hopes and a pen in Hollywood. When I met my future wife, we waved goodbye to LA and headed homeward-- back to the Bay Area!</p> 
+        <br>
+		<h2>What do I value?</h2>
+        <p> I bring years of experience in the technical contribution to the communication, implementation and vision of products in technology. I value empathy, humor, clarity, transparency and teamwork, and I hope you do too! </p>
     </div>
     <div class="col-lg-6 col-sm-6">
+	<br>
       <h2>What about you?</h2>
-      <h3>{{page.description}}</h3>
+      {% include memsql.html %}
     </div>
   </div>
 </div>
