@@ -9,8 +9,12 @@ email: jessbheron@gmail.com
 description: > # "Welcome to the personal website of Jess Heron. I work as a technical writer and content developer in SF. I hope you enjoy!"
 # destination: ../jbheron.github.io
 
-# For Testing 
-destination: ../jbheron.github.io_testing
+# For Testing - Comment out for production. 'jekyll build' ==> destination
+# destination: ../jbheron.github.io_testing
+
+# For deployment - Uncomment next line, `jekyll build`
+# Then push ../jbheron.github.io to github
+destination: ../jbheron.github.io
 
 keep_files: [.git]
 # ----------------------- #
